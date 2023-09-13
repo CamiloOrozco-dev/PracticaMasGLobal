@@ -1,0 +1,14 @@
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\bin\Debug\net6.0\PracticeMasGlobal.exe
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\bin\Debug\net6.0\PracticeMasGlobal.deps.json
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\bin\Debug\net6.0\PracticeMasGlobal.runtimeconfig.json
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\bin\Debug\net6.0\PracticeMasGlobal.dll
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\bin\Debug\net6.0\PracticeMasGlobal.pdb
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\obj\Debug\net6.0\PracticeMasGlobal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\obj\Debug\net6.0\PracticeMasGlobal.AssemblyInfoInputs.cache
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\obj\Debug\net6.0\PracticeMasGlobal.AssemblyInfo.cs
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\obj\Debug\net6.0\PracticeMasGlobal.csproj.CoreCompileInputs.cache
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\obj\Debug\net6.0\PracticeMasGlobal.dll
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\obj\Debug\net6.0\refint\PracticeMasGlobal.dll
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\obj\Debug\net6.0\PracticeMasGlobal.pdb
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\obj\Debug\net6.0\PracticeMasGlobal.genruntimeconfig.cache
+C:\Users\CamiloZapata\Desktop\Proyects\PracticeMasGlobal\obj\Debug\net6.0\ref\PracticeMasGlobal.dll
