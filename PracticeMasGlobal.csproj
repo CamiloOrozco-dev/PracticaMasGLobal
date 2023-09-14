@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PracticeMasGLobal.Test\PracticeMasGLobal.Test.csproj" />
+  </ItemGroup>
+
 </Project>

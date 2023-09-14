@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Models.Class;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,12 @@ namespace PracticeMasGlobal.Interfaces
 {
     internal interface IEventsRace
     {
-        public string StartRace(bool RaceStatus);
-        public string StopRace();
-        public void CourseRace();
-        public void PrintResult();
-        public void GeneratePodium(int Position);
+        public string startRace(bool RaceStatus, List<Truck> listExist);
+        public string stopRace();
+        public void courseRace();
+        public void printResult();
+        public void generatePodium(int Position);
+
+        public void getlistAndSetTypeList( );
     }
 }
