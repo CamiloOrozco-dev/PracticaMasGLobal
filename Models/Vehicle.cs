@@ -1,16 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using PracticeMasGlobal.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace Models.Class
 {
-    public abstract class Vehicle 
+    public class Vehicle
     {
-        public int Id { get; set; }
         [Required]
-        public string ModelVehicle { get; set; }
-        [Required]
-        public string Color { get; set; }
-        [Required]
-        public string[] Accesories { get; set; }
-        public Vehicle() { }
+        public Guid Id { get; set; }
+        public string Model { get; set; }
+        public EColor Color { get; set; }
+        public string Brand { get; set; }
+        public IDictionary<string, string> Accessories { get; set; }
     }
 }

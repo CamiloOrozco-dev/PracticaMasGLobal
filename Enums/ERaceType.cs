@@ -6,12 +6,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticeMasGlobal.@enum
+namespace PracticeMasGlobal.Enum
 {
-    public class OutMessage
+    public enum  ERaceType
     {
-       public string YES_OR_NOT_DECISION = " Enter [1] To yes,  [0] to no ";
-
+      Truck ,
+      MotorBike 
     }
 
     
