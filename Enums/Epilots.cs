@@ -22,6 +22,16 @@ namespace PracticeMasGlobal.Enums
         Karen,
         James,
         Patricia,
-        Joseph
+        Joseph,
+        Schumacher,
+        Hamilton,
+        Senna,
+         Vettel,
+        Alonso,
+         Fangio,
+         Andretti,
+         Prost,
+         Clark,
+         Lauda,
     }
 }

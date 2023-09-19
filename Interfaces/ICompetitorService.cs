@@ -12,9 +12,12 @@ namespace PracticeMasGlobal.Interfaces
     internal interface ICompetitorService
     {
 
-        public Competitor AddCompetitor(Epilots name, Guid Id);
-       
-            
-        
+        public List<Competitor> AddCompetitors( List<Vehicle> listVehicle);
+
+        public string GetCompetitors(List<Competitor> competitor);
+
+
+
+
     }
 }

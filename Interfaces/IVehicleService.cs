@@ -10,9 +10,9 @@ namespace PracticeMasGlobal.Interfaces
 {
     internal interface IVehicleService
     {
-         IList<Vehicle> SetRandomVehicles(int NumberOfVehicles, ERaceType Type);
+         List<Vehicle> SetRandomVehicles(int NumberOfVehicles, ERaceType Type);
 
-       string GetRandomVehicles(IList<Vehicle> convertList);
+       string GetRandomVehicles(List<Vehicle> convertList);
         
    
 

@@ -11,12 +11,12 @@ namespace PracticeMasGlobal.Interfaces
 {
     internal interface IRaceService
     {
-        bool Register(string name, ERaceType Type, int NumberOfvehicles );
-        void Start();
+        Race register(string name, ERaceType type, int NumberOfvehicles, int laps);
+        void InitializerObjects(Race race);
        Task<string> GetPodiumByLap();
-       string GetRacePosition(Guid competitor, int NumberofVehicles);
-        Task<string> RandomRacePosition();
-        Task<IList<Competitor>> ProbabilityPositions();
+        string ProbabilityPositions();
+
+       // void startLoop();
 
 
        

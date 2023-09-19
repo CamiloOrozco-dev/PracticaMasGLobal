@@ -59,8 +59,11 @@ namespace PracticeMasGlobal.Util
         {
 
             Random random = new Random();
+            
             return (Epilots)random.Next(System.Enum.GetValues(typeof(Epilots)).Length);
         }
+
+       
 
     }
 }
