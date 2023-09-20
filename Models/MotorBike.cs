@@ -1,4 +1,5 @@
 ﻿using Models.Class;
+using PracticeMasGlobal.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,13 +8,11 @@ using System.Threading.Tasks;
 
 namespace PracticeMasGlobal.Models
 {
-    public class Bike : Vehicle
+    public class MotorBike : Vehicle
     {
-        
-        public int PowerBike { get;  set; }
 
-       public string TypeBike { get; set; }
+       public EBikeType Type { get; set; }
       
-        public Bike() { }
+      
     }
 }
