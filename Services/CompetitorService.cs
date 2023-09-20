@@ -42,10 +42,11 @@ namespace PracticeMasGlobal.Services
 
             string outPut = string.Empty;
             Console.WriteLine( $"#  {"Pilot Name",-15}{"Model",-10}{"Color",-10}{"Brand",-10}\n");
-
+            int Position = 0;
             foreach (Competitor i in competitor)
             {
-                outPut += $"{i.Vehicle.Position}: {i.FullName,-15}{i.Vehicle.Model,-10}{i.Vehicle.Color,-10}{i.Vehicle.Brand,-10}\n";
+                Position = ++Position;
+                outPut += $"{Position}: {i.FullName,-15}{i.Vehicle.Model,-10}{i.Vehicle.Color,-10}{i.Vehicle.Brand,-10}\n";
             }
 
 

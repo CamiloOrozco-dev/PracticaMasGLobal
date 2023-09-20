@@ -1,12 +1,8 @@
-﻿using Models.Class;
-using PracticeMasGlobal.Enum;
+﻿using PracticeMasGlobal.Enum;
 using PracticeMasGlobal.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
+
 
 namespace PracticeMasGlobal.Util
 {
@@ -59,12 +55,14 @@ namespace PracticeMasGlobal.Util
         {
 
             Random random = new Random();
-            
+
             return (Epilots)random.Next(System.Enum.GetValues(typeof(Epilots)).Length);
         }
 
-       
+
+        
 
     }
+
 }
 

@@ -6,9 +6,5 @@ using System.Threading.Tasks;
 
 namespace PracticeMasGlobal.Constants
 {
-    public class AppConstants
-    {
 
-
-    }
 }

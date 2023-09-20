@@ -13,12 +13,13 @@ namespace PracticeMasGlobal.Interfaces
     {
         Race register(string name, ERaceType type, int NumberOfvehicles, int laps);
         void InitializerObjects(Race race);
-       Task<string> GetPodiumByLap();
-        string ProbabilityPositions();
+       string[] GetPodium( string list);
+        string ProbabilityPositions(List <Competitor> competitors);
+        void startLoop(Race race, List<Competitor> listCompetitor);
 
-       // void startLoop();
+        
 
 
-       
+
     }
 }

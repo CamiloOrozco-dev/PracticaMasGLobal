@@ -15,7 +15,7 @@ namespace PracticeMasGlobal
         {
 
             RaceService raceService = new RaceService();
-           Race? newRace = raceService.register("Race test", ERaceType.MotorBike, 6, 6);
+           Race? newRace = raceService.register("Race test", ERaceType.Truck, 10, 3);
 
         }
     }
